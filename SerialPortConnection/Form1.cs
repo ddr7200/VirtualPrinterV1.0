@@ -43,8 +43,8 @@ namespace SerialPortConnection
         public static int gbImgWidth = 2000;//A4纸宽8.3inch，按照180dpi计算
         public static int gbImgHeigth = 2106;//A4纸宽11.7inch，按照180dpi计算
         public static Bitmap gbOutputPicture = new Bitmap(gbImgWidth, gbImgHeigth);//定义一张A4纸的大小的图片
-        public static float gbXResolution = 120;//X轴分辨率DPI
-        public static float gbYResolution = 180;//Y轴分辨率DPI
+        public static float gbXResolution;//X轴分辨率DPI
+        public static float gbYResolution;//Y轴分辨率DPI
         
         public static string gbDecodeMethod = "gb18030";//解码方式
         public static string gbFontStyle = "宋体";//设定默认的西文字体
